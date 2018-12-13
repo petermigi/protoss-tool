@@ -1,0 +1,12 @@
+<!--index.wxml-->
+<button type="primary" bindtap="getToken">申请令牌</button>
+<button type="primary"bindtap="getSuperToken">申请Super权限令牌</button>
+<button type="warn" bindtap="pay">支付</button>
+<button type="primary" bindtap="delivery" >发货</button>
+<form bindsubmit="formID" report-submit="true">
+    <button form-type="submit" type='primary' >表单ID</button>
+</form>
+<button type="warn" bindtap="checkSession">检查登录态</button>
+
+<button type="primary" bindtap="cbRequest">回调测试</button>
+ <button open-type="getUserInfo">getUserInfo</button>
